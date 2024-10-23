@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-crash",
+  "version": "1.0.0",
+  "description": "nodejs basic learn",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --env-file=.env server2.js"
+  },
+  "author": "shakil",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
