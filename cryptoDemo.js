@@ -2,15 +2,15 @@ import crypto from 'crypto';
 
 
 // createHas()
-// const hash = crypto.createHash('sha256');
-// hash.update('password1234');
-// console.log(hash.digest('hex'))
+const hash = crypto.createHash('sha256');
+hash.update('password1234');
+console.log(hash.digest('hex'))
 
 // randomBytes()
-// crypto.randomBytes(16, (err, buffer) => {
-//     if (err) throw err;
-//     console.log(buffer.toString('hex'))
-// })
+crypto.randomBytes(16, (err, buffer) => {
+    if (err) throw err;
+    console.log(buffer.toString('hex'))
+})
 
 
 // createCipheriv & createDecipheriv
